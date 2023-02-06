@@ -3,7 +3,7 @@
     James William Fletcher (github.com/mrbid)
         January 2023
 --------------------------------------------------
-    Emscripten / C & SDL / OpenGL ES2 / GLSL ES
+    C & SDL / OpenGL ES2 / GLSL ES
 
     sudo apt install libespeak-dev libsdl2-2.0-0 libsdl2-dev
     gcc main.c -I inc -lSDL2 -lGLESv2 -lEGL -pthread -lespeak -Ofast -lm -o MicroPusher
