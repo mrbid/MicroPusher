@@ -98,7 +98,7 @@ f32 PUSH_SPEED = 1.6f;
 
 // metrics
 int pid = 0;     // last win present id
-uint clicks = 0; // total clicks since game start
+uint clicks = 0; // total clicks since game start (well, coin deployments)
 uint winc = 0;   // win count
 
 //*************************************
