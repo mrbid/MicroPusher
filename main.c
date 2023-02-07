@@ -260,7 +260,7 @@ int collision(int ci)
         if(i == ci || coins[i].type == -1){continue;}
         const f32 xm = (coins[i].x - coins[ci].x);
         const f32 ym = (coins[i].y - coins[ci].y);
-        if(sqrtps(xm*xm + ym*ym) < COIN_RAD2)
+        if(xm*xm + ym*ym < COIN_RAD22)
             return 1;
     }
     return 0;
