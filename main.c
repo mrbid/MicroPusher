@@ -221,16 +221,6 @@ void injectPbox()
     }
 }
 
-void injectPboxR()
-{
-    active_coin = fRand(0.f, 2.f);
-    coins[active_coin].type = fRand(2.f, 12.f);
-
-    coins[active_coin].x = fRandFloat(-1.90433f, 1.90433f);
-    coins[active_coin].y = -4.54055f;
-    inmotion = 2;
-}
-
 int insidePitch(const f32 x, const f32 y, const f32 r)
 {
     // off bottom
